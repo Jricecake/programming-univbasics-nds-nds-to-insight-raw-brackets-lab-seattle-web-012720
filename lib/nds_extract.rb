@@ -20,7 +20,7 @@ def directors_totals(directors_database)
       final_hash[currentname] = current_total
       ##binding.pry
       end
-      
+    current_total = 0  
     directors_index += 1
     end
 final_hash[:total] = total_gross
