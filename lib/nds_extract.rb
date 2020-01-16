@@ -18,7 +18,7 @@ def directors_totals(directors_database)
       total_gross += directors_database[directors_index][:movies][movies_index][:worldwide_gross]
       movies_index += 1
       final_hash[currentname] = current_total
-      binding.pry
+      ##binding.pry
       end
       
     directors_index += 1
