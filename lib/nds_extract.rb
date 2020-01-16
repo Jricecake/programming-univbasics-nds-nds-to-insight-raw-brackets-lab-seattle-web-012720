@@ -4,8 +4,6 @@ require 'directors_database'
 require 'pp'
 require 'pry'
 
-pp directors_database
-
 def directors_totals(directors_database)
   final_hash = {}
   directors_index = 0
